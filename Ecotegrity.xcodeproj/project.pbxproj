@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		12DD08D2C5A61932A3A57C22 /* Pods_EcotegrityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3A914FBB76C9B263F2A0B /* Pods_EcotegrityTests.framework */; };
+		4331212B24C0F65100155C6B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331212A24C0F65100155C6B /* SignUpViewController.swift */; };
+		4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331212C24C0F67400155C6B /* LoginViewController.swift */; };
+		4331212F24C0F69000155C6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331212E24C0F69000155C6B /* HomeViewController.swift */; };
 		433FCDF924BE61DC00175D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCDF824BE61DC00175D90 /* AppDelegate.swift */; };
 		433FCDFB24BE61DC00175D90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCDFA24BE61DC00175D90 /* SceneDelegate.swift */; };
 		433FCDFD24BE61DC00175D90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCDFC24BE61DC00175D90 /* ViewController.swift */; };
@@ -42,6 +45,9 @@
 		0469C7B46469876C4951CF6B /* Pods_Ecotegrity_EcotegrityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecotegrity_EcotegrityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E3A914FBB76C9B263F2A0B /* Pods_EcotegrityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcotegrityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF4B79F717D718795A63568 /* Pods-Ecotegrity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity.release.xcconfig"; path = "Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity.release.xcconfig"; sourceTree = "<group>"; };
+		4331212A24C0F65100155C6B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4331212C24C0F67400155C6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4331212E24C0F69000155C6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		433FCDF524BE61DC00175D90 /* Ecotegrity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecotegrity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		433FCDF824BE61DC00175D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		433FCDFA24BE61DC00175D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +107,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4331213024C0F6A000155C6B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				433FCDFC24BE61DC00175D90 /* ViewController.swift */,
+				4331212A24C0F65100155C6B /* SignUpViewController.swift */,
+				4331212C24C0F67400155C6B /* LoginViewController.swift */,
+				4331212E24C0F69000155C6B /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		433FCDEC24BE61DC00175D90 = {
 			isa = PBXGroup;
 			children = (
@@ -126,9 +143,9 @@
 		433FCDF724BE61DC00175D90 /* Ecotegrity */ = {
 			isa = PBXGroup;
 			children = (
+				4331213024C0F6A000155C6B /* View Controllers */,
 				433FCDF824BE61DC00175D90 /* AppDelegate.swift */,
 				433FCDFA24BE61DC00175D90 /* SceneDelegate.swift */,
-				433FCDFC24BE61DC00175D90 /* ViewController.swift */,
 				433FCDFE24BE61DC00175D90 /* Main.storyboard */,
 				433FCE0124BE61E000175D90 /* Assets.xcassets */,
 				433FCE0324BE61E000175D90 /* LaunchScreen.storyboard */,
@@ -165,7 +182,6 @@
 				E9E76F4F1061FCC3FC8065E7 /* Pods-EcotegrityTests.debug.xcconfig */,
 				D0D9787B6247DCAE76B4D80B /* Pods-EcotegrityTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -374,7 +390,10 @@
 			files = (
 				433FCDFD24BE61DC00175D90 /* ViewController.swift in Sources */,
 				433FCDF924BE61DC00175D90 /* AppDelegate.swift in Sources */,
+				4331212B24C0F65100155C6B /* SignUpViewController.swift in Sources */,
+				4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */,
 				433FCDFB24BE61DC00175D90 /* SceneDelegate.swift in Sources */,
+				4331212F24C0F69000155C6B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
