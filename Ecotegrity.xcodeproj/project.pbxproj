@@ -21,6 +21,10 @@
 		433FCE1B24BE61E000175D90 /* EcotegrityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCE1A24BE61E000175D90 /* EcotegrityUITests.swift */; };
 		4F1B4C3081761EF4D742EA46 /* Pods_Ecotegrity_EcotegrityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0469C7B46469876C4951CF6B /* Pods_Ecotegrity_EcotegrityUITests.framework */; };
 		E2364F96A832C6A0F17216BB /* Pods_Ecotegrity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF38C91F2421AB51DB29B736 /* Pods_Ecotegrity.framework */; };
+		F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C07D1124C23FCD00C7BA10 /* Utilities.swift */; };
+		F6C07D1724C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
+		F6C07D1824C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
+		F6C07D1924C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,8 @@
 		DF38C91F2421AB51DB29B736 /* Pods_Ecotegrity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecotegrity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E669574A911147486CA10345 /* Pods-Ecotegrity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity.debug.xcconfig"; path = "Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E76F4F1061FCC3FC8065E7 /* Pods-EcotegrityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcotegrityTests.debug.xcconfig"; path = "Target Support Files/Pods-EcotegrityTests/Pods-EcotegrityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6C07D1124C23FCD00C7BA10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,12 +149,14 @@
 		433FCDF724BE61DC00175D90 /* Ecotegrity */ = {
 			isa = PBXGroup;
 			children = (
-				4331213024C0F6A000155C6B /* View Controllers */,
 				433FCDF824BE61DC00175D90 /* AppDelegate.swift */,
 				433FCDFA24BE61DC00175D90 /* SceneDelegate.swift */,
+				F6C07D1524C2411600C7BA10 /* helpers */,
+				4331213024C0F6A000155C6B /* View Controllers */,
 				433FCDFE24BE61DC00175D90 /* Main.storyboard */,
 				433FCE0124BE61E000175D90 /* Assets.xcassets */,
 				433FCE0324BE61E000175D90 /* LaunchScreen.storyboard */,
+				F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */,
 				433FCE0624BE61E000175D90 /* Info.plist */,
 			);
 			path = Ecotegrity;
@@ -185,6 +193,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F6C07D1524C2411600C7BA10 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F6C07D1124C23FCD00C7BA10 /* Utilities.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,6 +212,7 @@
 				433FCDF124BE61DC00175D90 /* Sources */,
 				433FCDF224BE61DC00175D90 /* Frameworks */,
 				433FCDF324BE61DC00175D90 /* Resources */,
+				E30C9CDDBFBF195D9D5CC23E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +250,7 @@
 				433FCE1224BE61E000175D90 /* Sources */,
 				433FCE1324BE61E000175D90 /* Frameworks */,
 				433FCE1424BE61E000175D90 /* Resources */,
+				02CF51EC7FAE94F5E582D93E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				433FCE0524BE61E000175D90 /* LaunchScreen.storyboard in Resources */,
+				F6C07D1724C2476000C7BA10 /* GoogleService-Info.plist in Resources */,
 				433FCE0224BE61E000175D90 /* Assets.xcassets in Resources */,
 				433FCE0024BE61DC00175D90 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C07D1824C2476000C7BA10 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +329,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C07D1924C2476000C7BA10 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02CF51EC7FAE94F5E582D93E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6841D40FBF89647DFC7EB66C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +419,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E30C9CDDBFBF195D9D5CC23E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -390,6 +445,7 @@
 			files = (
 				433FCDFD24BE61DC00175D90 /* ViewController.swift in Sources */,
 				433FCDF924BE61DC00175D90 /* AppDelegate.swift in Sources */,
+				F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */,
 				4331212B24C0F65100155C6B /* SignUpViewController.swift in Sources */,
 				4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */,
 				433FCDFB24BE61DC00175D90 /* SceneDelegate.swift in Sources */,

@@ -5,6 +5,11 @@ target 'Ecotegrity' do
 
   # Pods for Ecotegrity
 
+	pod 'Firebase/Analytics'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Core'
+	pod 'Firebase/Firestore'
+
   target 'EcotegrityTests' do
     inherit! :search_paths
     # Pods for testing

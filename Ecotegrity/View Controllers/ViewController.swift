@@ -11,16 +11,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var loginbutton: UIButton!
+    
+    @IBOutlet weak var signUpButton: UIButton!
+    
+    @IBOutlet weak var loginButton: UIButton!
     
     @IBOutlet weak var logo: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
+        setUpElements()
         }
+    
+    func setUpElements() {
+        
+        Utilities.styleFilledButton(signUpButton)
+        Utilities.styleFilledButton(loginButton)
+        
+    }
   
    }
 
