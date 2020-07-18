@@ -74,7 +74,7 @@ class SignUpViewController: UIViewController {
         }
         else {
             //create the user
-            Auth.auth().createUser(withEmail: <#T##String#>, password: <#T##String#>) { (result, err) in
+            Auth.auth().createUser(withEmail: "", password: "") { (result, err) in
                 //check for errors
                 if err != nil{
                     //there was an error creating the user
