@@ -22,6 +22,7 @@
 		433FCE1B24BE61E000175D90 /* EcotegrityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCE1A24BE61E000175D90 /* EcotegrityUITests.swift */; };
 		6BE6ECB4E2987AC7B86C3771 /* Pods_EcotegrityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1959F2124B5CA319A9130092 /* Pods_EcotegrityTests.framework */; };
 		D8289CAA24C3C286003D913B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8289CA924C3C286003D913B /* Constants.swift */; };
+		D8289CAD24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D8289CAC24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */; };
 		F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C07D1124C23FCD00C7BA10 /* Utilities.swift */; };
 		F6C07D1724C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
 		F6C07D1824C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
@@ -73,6 +74,8 @@
 		C0442D280720FE092A5BC1EC /* Pods-Ecotegrity-EcotegrityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity-EcotegrityUITests.release.xcconfig"; path = "Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB89BD3639967EF80A6C7357 /* Pods-Ecotegrity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity.debug.xcconfig"; path = "Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity.debug.xcconfig"; sourceTree = "<group>"; };
 		D8289CA924C3C286003D913B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D8289CAC24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-07-18 at 9.27.53 PM.png"; path = "../../../../Desktop/Screen Shot 2020-07-18 at 9.27.53 PM.png"; sourceTree = "<group>"; };
+		D8289CAE24C403F0003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-07-18 at 9.27.53 PM.png"; sourceTree = "<group>"; };
 		F6C07D1124C23FCD00C7BA10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +151,7 @@
 				4331213024C0F6A000155C6B /* View Controllers */,
 				433FCDFE24BE61DC00175D90 /* Main.storyboard */,
 				433FCE0124BE61E000175D90 /* Assets.xcassets */,
+				D8289CAE24C403F0003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */,
 				433FCE0324BE61E000175D90 /* LaunchScreen.storyboard */,
 				F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */,
 				433FCE0624BE61E000175D90 /* Info.plist */,
@@ -199,6 +203,7 @@
 		D8289CAB24C3D526003D913B /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				D8289CAC24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				F6C07D1724C2476000C7BA10 /* GoogleService-Info.plist in Resources */,
 				433FCE0224BE61E000175D90 /* Assets.xcassets in Resources */,
 				433FCE0024BE61DC00175D90 /* Main.storyboard in Resources */,
+				D8289CAD24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
