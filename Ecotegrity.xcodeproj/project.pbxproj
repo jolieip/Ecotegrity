@@ -141,6 +141,7 @@
 		433FCDF724BE61DC00175D90 /* Ecotegrity */ = {
 			isa = PBXGroup;
 			children = (
+				D8289CAB24C3D526003D913B /* Media */,
 				433FCDF824BE61DC00175D90 /* AppDelegate.swift */,
 				433FCDFA24BE61DC00175D90 /* SceneDelegate.swift */,
 				F6C07D1524C2411600C7BA10 /* helpers */,
@@ -193,6 +194,13 @@
 				1959F2124B5CA319A9130092 /* Pods_EcotegrityTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8289CAB24C3D526003D913B /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		F6C07D1524C2411600C7BA10 /* helpers */ = {
