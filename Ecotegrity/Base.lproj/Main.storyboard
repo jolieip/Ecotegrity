@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FYM-g8-zEk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FYM-g8-zEk">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -133,14 +133,16 @@
                                     <constraint firstItem="OeG-Yx-fkk" firstAttribute="height" secondItem="NQL-6c-2un" secondAttribute="height" multiplier="0.75" id="t7D-V1-MxE"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="Yfp-tZ-uRQ">
-                                <rect key="frame" x="16" y="112" width="378" height="291"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="Yfp-tZ-uRQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="613"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yfp-tZ-uRQ" secondAttribute="trailing" id="8eW-qB-19n"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DCD-2E-2t3" secondAttribute="trailing" constant="40" id="Ebw-JS-G5J"/>
+                            <constraint firstItem="Yfp-tZ-uRQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GJm-Zf-x1O"/>
+                            <constraint firstItem="Yfp-tZ-uRQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HzU-uX-u8q"/>
                             <constraint firstItem="DCD-2E-2t3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="JZY-dU-Pbs"/>
                             <constraint firstAttribute="bottom" secondItem="DCD-2E-2t3" secondAttribute="bottom" constant="40" id="qpu-20-fMN"/>
                         </constraints>
