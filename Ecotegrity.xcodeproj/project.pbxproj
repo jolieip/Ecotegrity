@@ -18,6 +18,7 @@
 		433FCE0524BE61E000175D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433FCE0324BE61E000175D90 /* LaunchScreen.storyboard */; };
 		433FCE1024BE61E000175D90 /* EcotegrityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCE0F24BE61E000175D90 /* EcotegrityTests.swift */; };
 		433FCE1B24BE61E000175D90 /* EcotegrityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCE1A24BE61E000175D90 /* EcotegrityUITests.swift */; };
+		43BFD81224CBF07500695C70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD81124CBF07500695C70 /* SettingsViewController.swift */; };
 		D8289CAA24C3C286003D913B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8289CA924C3C286003D913B /* Constants.swift */; };
 		D8289CAD24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D8289CAC24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */; };
 		EB7F15A375EDF02B91544208 /* Pods_Ecotegrity_EcotegrityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB1527E243DE60A2605F55 /* Pods_Ecotegrity_EcotegrityUITests.framework */; };
@@ -67,6 +68,7 @@
 		433FCE1624BE61E000175D90 /* EcotegrityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcotegrityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433FCE1A24BE61E000175D90 /* EcotegrityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcotegrityUITests.swift; sourceTree = "<group>"; };
 		433FCE1C24BE61E000175D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BFD81124CBF07500695C70 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7DA2BD4456AAE50D1C60C765 /* Pods_Ecotegrity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecotegrity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21649A1C75656B38F8C9688 /* Pods_EcotegrityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcotegrityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04375EC1F6C64C5E6092B66 /* Pods-Ecotegrity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity.debug.xcconfig"; path = "Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				4331212A24C0F65100155C6B /* SignUpViewController.swift */,
 				4331212C24C0F67400155C6B /* LoginViewController.swift */,
 				4331212E24C0F69000155C6B /* HomeViewController.swift */,
+				43BFD81124CBF07500695C70 /* SettingsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				433FCDFB24BE61DC00175D90 /* SceneDelegate.swift in Sources */,
 				4331212F24C0F69000155C6B /* HomeViewController.swift in Sources */,
 				D8289CAA24C3C286003D913B /* Constants.swift in Sources */,
+				43BFD81224CBF07500695C70 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
