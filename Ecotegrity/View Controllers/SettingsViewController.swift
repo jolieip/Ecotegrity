@@ -36,7 +36,9 @@ class SettingsViewController: UIViewController {
         // Settings
 
 
-         var view = UILabel(Settingslbl)
+        func stylesettingshead(_label:UILabel) {
+            
+         var view = UILabel()
 
          view.frame = CGRect(x: 0, y: 0, width: 97, height: 36)
 
@@ -103,7 +105,7 @@ class SettingsViewController: UIViewController {
             view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 202).isActive = true
         }
         
-        styleSettingslbl(_label: Settingslbl )
+        stylesettingshead(_label: Settingslbl)
         stylesettingsfont(_label: playTutorial)
         stylesettingsfont(_label: editProfile)
         stylesettingsfont(_label: Location)
