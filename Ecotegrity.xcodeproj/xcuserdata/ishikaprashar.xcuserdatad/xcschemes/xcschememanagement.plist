@@ -7,7 +7,11 @@
 		<key>Ecotegrity.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>0</integer>
+=======
+			<integer>22</integer>
+>>>>>>> fe128fdedf98673c2bcff04c463401fe9506c7c1
 		</dict>
 	</dict>
 </dict>
