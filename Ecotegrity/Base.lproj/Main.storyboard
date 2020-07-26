@@ -334,13 +334,12 @@
         <!--Settings-->
         <scene sceneID="lSz-3J-awe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kQx-Sx-zyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="Settings" id="5E6-OS-ukc" customClass="SettingsViewController" customModule="Ecotegrity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p9x-jA-qMo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMi-cL-gmP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMi-cL-gmP">
                                 <rect key="frame" x="147" y="147" width="112" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
@@ -443,6 +442,54 @@
                                 <rect key="frame" x="89" y="255" width="13" height="7"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (4)" translatesAutoresizingMaskIntoConstraints="NO" id="cKy-D1-3LT">
+                                <rect key="frame" x="62" y="418" width="40" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (2)" translatesAutoresizingMaskIntoConstraints="NO" id="Ol9-ev-ypp">
+                                <rect key="frame" x="79" y="472" width="11" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (2)" translatesAutoresizingMaskIntoConstraints="NO" id="0PV-t8-3Lo">
+                                <rect key="frame" x="79" y="476" width="11" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (2)" translatesAutoresizingMaskIntoConstraints="NO" id="uYg-1t-j3F">
+                                <rect key="frame" x="79" y="481" width="11" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (8)" translatesAutoresizingMaskIntoConstraints="NO" id="dDe-8Y-kw6">
+                                <rect key="frame" x="52" y="549" width="60" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (7)" translatesAutoresizingMaskIntoConstraints="NO" id="wNg-Ml-0zv">
+                                <rect key="frame" x="72" y="495" width="6" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (7)" translatesAutoresizingMaskIntoConstraints="NO" id="wi1-Kh-VUC">
+                                <rect key="frame" x="72" y="488" width="6" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (7)" translatesAutoresizingMaskIntoConstraints="NO" id="3xq-J7-dca">
+                                <rect key="frame" x="72" y="500" width="6" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (6)" translatesAutoresizingMaskIntoConstraints="NO" id="KlM-ih-3zY">
+                                <rect key="frame" x="67" y="362" width="27" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (5)" translatesAutoresizingMaskIntoConstraints="NO" id="1Ud-Ew-uuk">
+                                <rect key="frame" x="53" y="358" width="55" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 19" translatesAutoresizingMaskIntoConstraints="NO" id="kVR-7C-2A7">
+                                <rect key="frame" x="64" y="473" width="36" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector (9)" translatesAutoresizingMaskIntoConstraints="NO" id="bIp-vj-RbK">
+                                <rect key="frame" x="54" y="622" width="60" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -452,7 +499,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3yW-oR-maU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Myt-Qa-Ypw"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="Myt-Qa-Ypw"/>
                     <connections>
                         <outlet property="Location" destination="f9D-TA-TLg" id="unf-1W-nNa"/>
                         <outlet property="Settingslbl" destination="DMi-cL-gmP" id="n89-Aa-5CV"/>
@@ -464,6 +511,7 @@
                         <outlet property="termsAndconditions" destination="xKe-NL-PGn" id="1Gd-d5-8Z0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kQx-Sx-zyG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3431.884057971015" y="303.34821428571428"/>
         </scene>
@@ -514,6 +562,12 @@
         <image name="Vector (1)" width="20" height="12"/>
         <image name="Vector (2)" width="10" height="2"/>
         <image name="Vector (3)" width="7" height="2"/>
+        <image name="Vector (4)" width="29" height="29"/>
+        <image name="Vector (5)" width="23" height="30"/>
+        <image name="Vector (6)" width="13" height="11"/>
+        <image name="Vector (7)" width="5" height="4"/>
+        <image name="Vector (8)" width="27" height="30"/>
+        <image name="Vector (9)" width="22" height="24"/>
         <image name="go to home" width="84" height="26"/>
         <image name="header" width="637" height="613"/>
         <image name="icons8-search" width="50" height="50"/>

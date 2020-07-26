@@ -31,83 +31,47 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-         func styleSettingslbl(_label:UILabel) {
-                              var view = UILabel()
-
-                              view.frame = CGRect(x: 0, y: 0, width: 113, height: 42)
-
-                              view.backgroundColor = .white
+        // Settings
 
 
-                              view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+         var view = UILabel(Settingslbl)
 
-                              view.font = UIFont(name: "Poppins-Regular", size: 28)
+         view.frame = CGRect(x: 0, y: 0, width: 97, height: 36)
 
-
-                              // Line height: 42 pt
-
-                              // (identical to box height)
+         view.backgroundColor = .white
 
 
-                              view.textAlignment = .center
+         view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
 
-                              view.text = "Settings"
-
-
-                              var parent = self.view!
-
-                              parent.addSubview(view)
-
-                              view.translatesAutoresizingMaskIntoConstraints = false
-
-                              view.widthAnchor.constraint(equalToConstant: 113).isActive = true
-
-                              view.heightAnchor.constraint(equalToConstant: 42).isActive = true
-
-                              view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 151).isActive = true
-
-                              view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 120).isActive = true
-
-                   }
-        
-         func stylesettingsfont(_label:UILabel) {
-            
-
-            var view = UILabel()
-
-            view.frame = CGRect(x: 0, y: 0, width: 118, height: 30)
-
-            view.backgroundColor = .white
+         view.font = UIFont(name: "Poppins-Regular", size: 24)
 
 
-            view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.82)
+         // Line height: 36 pt
 
-            view.font = UIFont(name: "Poppins-Regular", size: 20)
-
-
-            // Line height: 30 pt
-
-            // (identical to box height)
+         // (identical to box height)
 
 
-            view.text = "" ;
+         view.textAlignment = .center
 
-            var parent = self.view!
-
-            parent.addSubview(view)
-
-            view.translatesAutoresizingMaskIntoConstraints = false
-
-            view.widthAnchor.constraint(equalToConstant: 118).isActive = true
-
-            view.heightAnchor.constraint(equalToConstant: 30).isActive = true
-
-            view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 87).isActive = true
-
-            view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 202).isActive = true
+         view.text = "Settings"
 
 
-        }
+         var parent = self.view!
+
+         parent.addSubview(view)
+
+         view.translatesAutoresizingMaskIntoConstraints = false
+
+         view.widthAnchor.constraint(equalToConstant: 97).isActive = true
+
+         view.heightAnchor.constraint(equalToConstant: 36).isActive = true
+
+         view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 159).isActive = true
+
+         view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 60).isActive = true
+
+
+    }
         
         func stylefirsticon(_label:UILabel) {
             var view = UILabel()
