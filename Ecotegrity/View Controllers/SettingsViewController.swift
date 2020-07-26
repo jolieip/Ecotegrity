@@ -18,7 +18,9 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet weak var Location: UILabel!
     
-    @IBOutlet weak var soundNotifications: UILabel!
+    
+    
+    @IBOutlet weak var notifcations: UIButton!
     
     @IBOutlet weak var termsAndconditions: UILabel!
     
