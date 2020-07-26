@@ -106,15 +106,8 @@ class SettingsViewController: UIViewController {
         }
         
         stylesettingshead(_label: Settingslbl)
-        stylesettingsfont(_label: playTutorial)
-        stylesettingsfont(_label: editProfile)
-        stylesettingsfont(_label: Location)
-        stylesettingsfont(_label: soundNotifications)
-        stylesettingsfont(_label: termsAndconditions)
-        stylesettingsfont(_label: logOut)
-        stylesettingsfont(_label: contactUs)
-        stylefirsticon(_label: firsticon)
-
+        
+        
       
     /*
     // MARK: - Navigation

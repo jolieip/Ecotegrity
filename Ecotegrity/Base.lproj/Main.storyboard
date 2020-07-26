@@ -58,6 +58,7 @@
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
                                             <action selector="signUptapped:" destination="4g5-SI-oU7" eventType="touchUpInside" id="i9E-TZ-g7l"/>
+                                            <segue destination="RBK-6G-kQM" kind="show" id="XBE-9c-bLS"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6a-ov-dDO">
@@ -188,6 +189,7 @@
                                         <state key="normal" title="Log in"/>
                                         <connections>
                                             <action selector="loginTapped:" destination="3W1-id-ecf" eventType="touchUpInside" id="Oq3-DE-4eC"/>
+                                            <segue destination="RBK-6G-kQM" kind="show" id="5nK-FY-5Uw"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyQ-lX-kk9">
@@ -243,6 +245,7 @@
                         <viewLayoutGuide key="safeArea" id="38A-Cz-U3S"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="9D9-5O-YLK"/>
+                    <navigationItem key="navigationItem" id="F68-Sv-Vfr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u6J-aI-f2V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -524,7 +527,7 @@
             <objects>
                 <viewController title="Settings(Notifications)" id="c5l-AL-gAl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zCZ-ru-Nzj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bic-It-F52">
@@ -618,6 +621,7 @@ updated posts/events/discussions</string>
         <scene sceneID="G8k-d5-FT6">
             <objects>
                 <tabBarController id="RBK-6G-kQM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Zgp-S0-M5Z"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dqP-hP-C9e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -651,6 +655,9 @@ updated posts/events/discussions</string>
             <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="5nK-FY-5Uw"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="3R" width="124" height="163"/>
         <image name="Ellipse 14" width="17" height="15"/>
