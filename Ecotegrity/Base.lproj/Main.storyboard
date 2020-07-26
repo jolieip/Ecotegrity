@@ -325,6 +325,17 @@
                         <viewLayoutGuide key="safeArea" id="JNb-W2-wmI"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="NEJ-hr-c3o"/>
+                    <connections>
+                        <outlet property="GoToHome" destination="1X8-fX-ycs" id="yZK-XM-iod"/>
+                        <outlet property="nextstep" destination="OOj-5X-KHy" id="6Ec-jK-Bou"/>
+                        <outlet property="oceanandwildlife" destination="8sm-p1-Xwr" id="1IK-2M-D3E"/>
+                        <outlet property="pickinterestlabel" destination="KkX-Hg-fdD" id="hoO-95-zGA"/>
+                        <outlet property="plasticeffects" destination="fXZ-Yi-xru" id="YI9-k5-Sra"/>
+                        <outlet property="plasticwaste" destination="UuU-AW-ZFf" id="6fH-gf-xaP"/>
+                        <outlet property="recycle" destination="6FY-Bk-hWh" id="4Zo-Bc-FoA"/>
+                        <outlet property="searchbutton" destination="DCt-pV-nDv" id="gbL-OS-CX5"/>
+                        <outlet property="searchtextfield" destination="c1y-Yk-pvS" id="EEj-l2-0AU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ajB-6j-1Ln" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

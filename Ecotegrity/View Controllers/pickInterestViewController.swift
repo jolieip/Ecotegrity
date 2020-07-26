@@ -9,7 +9,22 @@
 import UIKit
 
 class pickInterestViewController: UIViewController {
-
+    
+    @IBOutlet weak var pickinterestlabel: UILabel!
+    
+    @IBOutlet weak var searchtextfield: UITextField!
+    
+    @IBOutlet weak var searchbutton: UIButton!
+    
+    @IBOutlet weak var plasticwaste: UIButton!
+    
+    @IBOutlet weak var plasticeffects: UIButton!
+    
+    @IBOutlet weak var oceanandwildlife: UIButton!
+    
+    @IBOutlet weak var recycle: UIButton!
+    @IBOutlet weak var GoToHome: UIButton!
+    @IBOutlet weak var nextstep: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         var view = UILabel()
