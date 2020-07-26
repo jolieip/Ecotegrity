@@ -21,6 +21,7 @@
 		43BFD81224CBF07500695C70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD81124CBF07500695C70 /* SettingsViewController.swift */; };
 		D8289CAA24C3C286003D913B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8289CA924C3C286003D913B /* Constants.swift */; };
 		D8289CAD24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D8289CAC24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */; };
+		D8308ED124CD508F009DEEDA /* PickInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8308ED024CD508F009DEEDA /* PickInterestViewController.swift */; };
 		EB7F15A375EDF02B91544208 /* Pods_Ecotegrity_EcotegrityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBB1527E243DE60A2605F55 /* Pods_Ecotegrity_EcotegrityUITests.framework */; };
 		F32F52EDCDA96DBCDAC83C4E /* Pods_EcotegrityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21649A1C75656B38F8C9688 /* Pods_EcotegrityTests.framework */; };
 		F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C07D1124C23FCD00C7BA10 /* Utilities.swift */; };
@@ -76,6 +77,7 @@
 		D7075D4D4EA3A98691DDCC60 /* Pods-Ecotegrity-EcotegrityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity-EcotegrityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8289CA924C3C286003D913B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D8289CAC24C403B5003D913B /* Screen Shot 2020-07-18 at 9.27.53 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2020-07-18 at 9.27.53 PM.png"; path = "../../../../Desktop/Screen Shot 2020-07-18 at 9.27.53 PM.png"; sourceTree = "<group>"; };
+		D8308ED024CD508F009DEEDA /* PickInterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickInterestViewController.swift; sourceTree = "<group>"; };
 		E0C8E8189E819688EA4F3478 /* Pods-EcotegrityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcotegrityTests.debug.xcconfig"; path = "Target Support Files/Pods-EcotegrityTests/Pods-EcotegrityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6C07D1124C23FCD00C7BA10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				4331212C24C0F67400155C6B /* LoginViewController.swift */,
 				4331212E24C0F69000155C6B /* HomeViewController.swift */,
 				43BFD81124CBF07500695C70 /* SettingsViewController.swift */,
+				D8308ED024CD508F009DEEDA /* PickInterestViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			files = (
 				433FCDFD24BE61DC00175D90 /* ViewController.swift in Sources */,
 				433FCDF924BE61DC00175D90 /* AppDelegate.swift in Sources */,
+				D8308ED124CD508F009DEEDA /* PickInterestViewController.swift in Sources */,
 				F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */,
 				4331212B24C0F65100155C6B /* SignUpViewController.swift in Sources */,
 				4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */,
