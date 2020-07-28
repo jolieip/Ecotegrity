@@ -120,4 +120,30 @@ class SettingsViewController: UIViewController {
     */
 
 }
+    @IBAction func playtutorialClicked(_ sender: Any) {
+        // add code  for what will happen when play tutorial is clickd
+        print("Play tutorial clicked")
+    }
+    
+    @IBAction func editProfileClicked(_ sender: Any) {
+        print("Edit profile clicked")
+    }
+    
+    @IBAction func locationToggle(_ sender: UISwitch) {
+        sender.isSelected = !sender.isSelected
+
+           if sender.isSelected {
+               print("Location On")
+              
+           }
+
+           else {
+               print("Location off")
+           }
+    }
+    
+    
+    @IBAction func contactUsClicked(_ sender: Any) {
+        print("Contact us clicked")
+    }
 }
