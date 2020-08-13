@@ -86,7 +86,7 @@ class SignUpViewController: UIViewController {
                 //check for errors
                 if err != nil{
                     //there was an error creating the user
-                    self.showError("Error Creating User")
+                    self.showError(err!.localizedDescription)
                 }
                 else {
                     //user created succesfully so store first name and last name
@@ -112,7 +112,9 @@ class SignUpViewController: UIViewController {
         errorLabel.alpha = 1
     }
     func transitionToHome(){
-        
+        let homeViewController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeTabViewID) as? UITabBarController
+        self.view.window?.rootViewController = homeViewController
+        self.view.window?.makeKeyAndVisible()
         
     }
     
