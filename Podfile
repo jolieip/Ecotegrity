@@ -9,6 +9,8 @@ target 'Ecotegrity' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
+	pod "XLPagerTabStrip"
+
 
   target 'EcotegrityTests' do
     inherit! :search_paths
