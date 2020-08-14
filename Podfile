@@ -12,6 +12,7 @@ target 'Ecotegrity' do
 	pod 'XLPagerTabStrip', '~> 9.0'
 	pod 'MessageKit'
         pod 'iOSDropDown'
+        pod 'DatePickerDialog'
 
 
   target 'EcotegrityTests' do

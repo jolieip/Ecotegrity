@@ -8,19 +8,35 @@
 
 import UIKit
 import iOSDropDown
+
 class displayeventsViewController: UIViewController {
     @IBOutlet weak var addEventsclicked: UIButton!
     
-    @IBOutlet weak var dateandTime: DropDown!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var dateandTime: UITextField!
+    
+    @IBOutlet weak var backtoEventsclicked: UIBarButtonItem!
+    @IBOutlet weak var createEventclicked: UIButton!
     @IBOutlet weak var eventDescription: UITextView!
     @IBOutlet weak var eventName: UITextField!
     
-    let  datePicker = UIDatePicker()
-   
+    @IBAction func datePicker(_ sender: Any) {
+        let dateFormatter = DateFormatter()
+
+        dateFormatter.dateStyle = DateFormatter.Style.short
+        dateFormatter.timeStyle = DateFormatter.Style.short
+
+        let strDate = dateFormatter.string(from: datePicker.date)
+        dateLabel.text = strDate
+    }
+    
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
     @IBOutlet weak var locationMenu: DropDown!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      
         if locationMenu != nil {
             locationMenu.optionArray = ["Virtual", "In-Person"]
         }
@@ -35,35 +51,17 @@ class displayeventsViewController: UIViewController {
         if locationMenu != nil {
                          locationMenu.showList()
                       }
-      
-      
-   createDatePicker()
-        //Its Id Values and its optional
-    
-        // Do any additional setup after loading the view.
-    }
-    func createDatePicker() {
-         let toolbar = UIToolbar()
-        toolbar.sizeToFit()
         
-        let donebtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action :#selector(pressed))
-        toolbar.setItems([donebtn], animated: true)
-        dateandTime.inputAccessoryView = toolbar
-        dateandTime.inputView = datePicker
-        datePicker.datePickerMode = .date
     }
+    
    
-    @objc func pressed() {
-        dateandTime.text = "\(datePicker.date)"
-        self.view.endEditing(true)
-        let formatter =
-        DateFormatter()
-        formatter.dateStyle = .medium
-        formatter.timeStyle = .
-        none
-        dateandTime.text = formatter.string(from: datePicker.date)
     }
-
+    
+    
+      
+      
+   
+    
     /*
     // MARK: - Navigation
 
@@ -74,7 +72,9 @@ class displayeventsViewController: UIViewController {
     }
     */
 
-}
+
+
+
 
 
 @IBDesignable
@@ -85,7 +85,9 @@ class DesignableView: UIView {
 class DesignableButton: UIButton {
 }
 
-
+@IBDesignable
+    class DesignableLabel: UILabel {
+    }
 
 extension UIView {
     
@@ -98,6 +100,7 @@ extension UIView {
             layer.cornerRadius = newValue
         }
     }
+    
  @IBInspectable
     var borderWidth: CGFloat {
         get {
@@ -172,3 +175,5 @@ extension UIView {
         }
     }
 }
+
+
