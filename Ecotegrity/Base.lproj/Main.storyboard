@@ -815,8 +815,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prrofile_chat" translatesAutoresizingMaskIntoConstraints="NO" id="QzJ-Ef-UfE">
-                                <rect key="frame" x="0.0" y="312" width="414" height="272"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chatimg1" translatesAutoresizingMaskIntoConstraints="NO" id="KZS-FB-z8X">
+                                <rect key="frame" x="-46" y="194" width="507" height="500"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1640,7 +1640,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="R56-ea-IMI"/>
-        <segue reference="jl2-dP-zKu"/>
+        <segue reference="7Zb-AM-cb4"/>
         <segue reference="zD8-AA-bY7"/>
         <segue reference="osQ-eM-uLG"/>
         <segue reference="sb9-bZ-4iz"/>
@@ -1655,6 +1655,7 @@
         <image name="article 3" width="320" height="122"/>
         <image name="article 4" width="320" height="122"/>
         <image name="blog post" width="124" height="124"/>
+        <image name="chatimg1" width="724" height="1084"/>
         <image name="check plastic waste" width="138" height="153"/>
         <image name="create post-success add post" width="414" height="896"/>
         <image name="event 1" width="320" height="122"/>
@@ -1683,7 +1684,6 @@
         <image name="profile_friends" width="336" height="140"/>
         <image name="profile_picture" width="92" height="92"/>
         <image name="profile_settings" width="24" height="24"/>
-        <image name="prrofile_chat" width="231" height="295"/>
         <image name="search" width="23" height="23"/>
         <image name="setting_contactus" width="35" height="35"/>
         <image name="setting_editprofile" width="32" height="32"/>
