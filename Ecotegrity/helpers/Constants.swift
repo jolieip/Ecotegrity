@@ -14,5 +14,7 @@ struct Constants {
         
        static let homeViewController = "HomeVC"
         static let homeTabViewID = "HomeTabID"
+        static let pickInterests = "Platic"
+        static let thanksViewID = "ThanksView"
     }
 }

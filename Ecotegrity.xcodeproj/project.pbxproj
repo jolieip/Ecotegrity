@@ -32,6 +32,7 @@
 		F6B1C25524E5FD10004974D7 /* PickPlasticInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1C25424E5FD10004974D7 /* PickPlasticInterestViewController.swift */; };
 		F6B1C25724E60A71004974D7 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1C25624E60A71004974D7 /* EventsViewController.swift */; };
 		F6B1C25924E60A8D004974D7 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1C25824E60A8D004974D7 /* SimpleTableViewCell.swift */; };
+		F6B1C25B24E6F86F004974D7 /* ThanksSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1C25A24E6F86F004974D7 /* ThanksSignUpViewController.swift */; };
 		F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C07D1124C23FCD00C7BA10 /* Utilities.swift */; };
 		F6C07D1724C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
 		F6C07D1824C2476000C7BA10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */; };
@@ -92,6 +93,7 @@
 		F6B1C25424E5FD10004974D7 /* PickPlasticInterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickPlasticInterestViewController.swift; sourceTree = "<group>"; };
 		F6B1C25624E60A71004974D7 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		F6B1C25824E60A8D004974D7 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
+		F6B1C25A24E6F86F004974D7 /* ThanksSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksSignUpViewController.swift; sourceTree = "<group>"; };
 		F6C07D1124C23FCD00C7BA10 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F6C07D1624C2476000C7BA10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD270BE6810544914B9F8905 /* Pods_Ecotegrity_EcotegrityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecotegrity_EcotegrityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 				F6B1C23424E494F0004974D7 /* profile */,
 				433FCDFC24BE61DC00175D90 /* ViewController.swift */,
 				4331212A24C0F65100155C6B /* SignUpViewController.swift */,
+				F6B1C25A24E6F86F004974D7 /* ThanksSignUpViewController.swift */,
 				4331212C24C0F67400155C6B /* LoginViewController.swift */,
 				F6B1C24E24E505FC004974D7 /* PostingViewController.swift */,
 				F6B1C25024E5871A004974D7 /* NewRegularPostViewController.swift */,
@@ -499,6 +502,7 @@
 				4331212F24C0F69000155C6B /* HomeViewController.swift in Sources */,
 				D8289CAA24C3C286003D913B /* Constants.swift in Sources */,
 				F6B1C24824E4B3BB004974D7 /* Child2ViewController.swift in Sources */,
+				F6B1C25B24E6F86F004974D7 /* ThanksSignUpViewController.swift in Sources */,
 				F6B1C25924E60A8D004974D7 /* SimpleTableViewCell.swift in Sources */,
 				43BFD81224CBF07500695C70 /* SettingsViewController.swift in Sources */,
 				F6B1C24F24E505FC004974D7 /* PostingViewController.swift in Sources */,

@@ -112,7 +112,7 @@ class SignUpViewController: UIViewController {
         errorLabel.alpha = 1
     }
     func transitionToHome(){
-        let homeViewController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeTabViewID) as? UITabBarController
+        let homeViewController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.pickInterests) as? PickPlasticInterestViewController
         self.view.window?.rootViewController = homeViewController
         self.view.window?.makeKeyAndVisible()
         
