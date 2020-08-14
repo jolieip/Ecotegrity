@@ -11,6 +11,7 @@ target 'Ecotegrity' do
 	pod 'Firebase/Firestore'
 	pod 'XLPagerTabStrip', '~> 9.0'
 	pod 'MessageKit'
+        pod 'iOSDropDown'
 
 
   target 'EcotegrityTests' do

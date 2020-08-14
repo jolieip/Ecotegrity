@@ -10,6 +10,9 @@ import UIKit
 
 class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet var eventNametextfield: UIView!
+    
+    @IBOutlet weak var eventDescription: UITextView!
     private let tableView : UITableView = {
         let table = UITableView ()
         table.register(SimpleTableViewCell.self, forCellReuseIdentifier: SimpleTableViewCell.identifier)
@@ -20,6 +23,7 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
+       
         // Do any additional setup after loading the view.
     }
     
@@ -36,7 +40,12 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+  
+    
+   
+   
 
+   
     /*
     // MARK: - Navigation
 
@@ -48,3 +57,4 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
     */
 
 }
+
