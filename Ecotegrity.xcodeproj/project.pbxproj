@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DBCE7FE28CB56CA84536F32 /* Pods_Ecotegrity_EcotegrityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD270BE6810544914B9F8905 /* Pods_Ecotegrity_EcotegrityUITests.framework */; };
 		430CCA15A79D7BF87A94B310 /* Pods_EcotegrityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD00EA68DCE82DCF0E88EF98 /* Pods_EcotegrityTests.framework */; };
+		431CBEBC24E684770033B179 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431CBEBB24E684770033B179 /* iOSDropDown.framework */; };
 		4331212B24C0F65100155C6B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331212A24C0F65100155C6B /* SignUpViewController.swift */; };
 		4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331212C24C0F67400155C6B /* LoginViewController.swift */; };
 		4331212F24C0F69000155C6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4331212E24C0F69000155C6B /* HomeViewController.swift */; };
@@ -20,6 +21,8 @@
 		433FCE0524BE61E000175D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433FCE0324BE61E000175D90 /* LaunchScreen.storyboard */; };
 		433FCE1024BE61E000175D90 /* EcotegrityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCE0F24BE61E000175D90 /* EcotegrityTests.swift */; };
 		433FCE1B24BE61E000175D90 /* EcotegrityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FCE1A24BE61E000175D90 /* EcotegrityUITests.swift */; };
+		43699C6D24E65CE8009B47A7 /* createEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43699C6C24E65CE8009B47A7 /* createEventViewController.swift */; };
+		43699C6F24E6650B009B47A7 /* displayeventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43699C6E24E6650B009B47A7 /* displayeventsViewController.swift */; };
 		43BFD81224CBF07500695C70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD81124CBF07500695C70 /* SettingsViewController.swift */; };
 		B5DA68AEBD28811F1B0811F7 /* Pods_Ecotegrity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D9770C32CD61BC5A2314F /* Pods_Ecotegrity.framework */; };
 		D8289CAA24C3C286003D913B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8289CA924C3C286003D913B /* Constants.swift */; };
@@ -60,6 +63,7 @@
 		1CA5CD62F6CA17D7E73078CA /* Pods-Ecotegrity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity.debug.xcconfig"; path = "Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity.debug.xcconfig"; sourceTree = "<group>"; };
 		3B5A341CC0C5D77BB8E244EC /* Pods-EcotegrityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcotegrityTests.release.xcconfig"; path = "Target Support Files/Pods-EcotegrityTests/Pods-EcotegrityTests.release.xcconfig"; sourceTree = "<group>"; };
 		3DA820C81D989BDDC3E13770 /* Pods-EcotegrityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcotegrityTests.debug.xcconfig"; path = "Target Support Files/Pods-EcotegrityTests/Pods-EcotegrityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		431CBEBB24E684770033B179 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4331212A24C0F65100155C6B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4331212C24C0F67400155C6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4331212E24C0F69000155C6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		433FCE1624BE61E000175D90 /* EcotegrityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcotegrityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433FCE1A24BE61E000175D90 /* EcotegrityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcotegrityUITests.swift; sourceTree = "<group>"; };
 		433FCE1C24BE61E000175D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43699C6C24E65CE8009B47A7 /* createEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createEventViewController.swift; sourceTree = "<group>"; };
+		43699C6E24E6650B009B47A7 /* displayeventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayeventsViewController.swift; sourceTree = "<group>"; };
 		43BFD81124CBF07500695C70 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		612E6E8E344683EACA2159FD /* Pods-Ecotegrity-EcotegrityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity-EcotegrityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93DD9DF660E100AD60A3AD40 /* Pods-Ecotegrity-EcotegrityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity-EcotegrityUITests.release.xcconfig"; path = "Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431CBEBC24E684770033B179 /* iOSDropDown.framework in Frameworks */,
 				B5DA68AEBD28811F1B0811F7 /* Pods_Ecotegrity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,8 @@
 				F6B1C25424E5FD10004974D7 /* PickPlasticInterestViewController.swift */,
 				43BFD81124CBF07500695C70 /* SettingsViewController.swift */,
 				F6B1C25624E60A71004974D7 /* EventsViewController.swift */,
+				43699C6C24E65CE8009B47A7 /* createEventViewController.swift */,
+				43699C6E24E6650B009B47A7 /* displayeventsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -218,6 +227,7 @@
 		DC7C41B7B986429801755185 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				431CBEBB24E684770033B179 /* iOSDropDown.framework */,
 				BF1D9770C32CD61BC5A2314F /* Pods_Ecotegrity.framework */,
 				FD270BE6810544914B9F8905 /* Pods_Ecotegrity_EcotegrityUITests.framework */,
 				DD00EA68DCE82DCF0E88EF98 /* Pods_EcotegrityTests.framework */,
@@ -492,10 +502,12 @@
 				F6B1C24A24E4B3C5004974D7 /* Child3ViewController.swift in Sources */,
 				F6B1C24624E4B3AF004974D7 /* Child1ViewController.swift in Sources */,
 				F6C07D1224C23FCD00C7BA10 /* Utilities.swift in Sources */,
+				43699C6D24E65CE8009B47A7 /* createEventViewController.swift in Sources */,
 				F6B1C25524E5FD10004974D7 /* PickPlasticInterestViewController.swift in Sources */,
 				F6B1C25124E5871B004974D7 /* NewRegularPostViewController.swift in Sources */,
 				F6B1C24424E4B016004974D7 /* ParentViewController.swift in Sources */,
 				4331212B24C0F65100155C6B /* SignUpViewController.swift in Sources */,
+				43699C6F24E6650B009B47A7 /* displayeventsViewController.swift in Sources */,
 				4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */,
 				F6B1C25724E60A71004974D7 /* EventsViewController.swift in Sources */,
 				433FCDFB24BE61DC00175D90 /* SceneDelegate.swift in Sources */,
@@ -682,6 +694,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ecotegrity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -701,6 +714,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ecotegrity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
