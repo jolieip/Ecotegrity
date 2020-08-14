@@ -12,9 +12,16 @@ import iOSDropDown
 class displayeventsViewController: UIViewController {
     @IBOutlet weak var addEventsclicked: UIButton!
     
+    @IBOutlet weak var backClicked1: UIBarButtonItem!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var eventitem1: UIButton!
     @IBOutlet weak var dateandTime: UITextField!
+    @IBOutlet weak var homebutton: UIBarButtonItem!
     
+    @IBAction func backisClicked(_ sender: UIBarButtonItem) {
+        let leftItem = UIBarButtonItem(title: "< Back", style: .done, target: self, action: Selector("Save"))
+        navigationItem.backBarButtonItem = leftItem
+    }
     @IBOutlet weak var backtoEventsclicked: UIBarButtonItem!
     @IBOutlet weak var createEventclicked: UIButton!
     @IBOutlet weak var eventDescription: UITextView!
@@ -36,7 +43,7 @@ class displayeventsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      
+     
         if locationMenu != nil {
             locationMenu.optionArray = ["Virtual", "In-Person"]
         }
@@ -54,6 +61,12 @@ class displayeventsViewController: UIViewController {
         
     }
     
+    func transitionToHome(){
+        let homeViewController =  self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeTabViewID) as? UITabBarController
+        self.view.window?.rootViewController = homeViewController
+        self.view.window?.makeKeyAndVisible()
+        
+    }
    
     }
     
