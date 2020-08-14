@@ -9,7 +9,8 @@ target 'Ecotegrity' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
-	pod "XLPagerTabStrip"
+	pod 'XLPagerTabStrip', '~> 9.0'
+	pod 'MessageKit'
 
 
   target 'EcotegrityTests' do
