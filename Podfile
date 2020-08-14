@@ -5,12 +5,9 @@ target 'Ecotegrity' do
 
   # Pods for Ecotegrity
 
-	pod 'Firebase/Analytics'
 	pod 'Firebase/Auth'
-	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
 	pod 'XLPagerTabStrip', '~> 9.0'
-	pod 'MessageKit'
         pod 'iOSDropDown'
         pod 'DatePickerDialog'
 

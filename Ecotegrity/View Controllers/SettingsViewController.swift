@@ -105,7 +105,7 @@ class SettingsViewController: UIViewController {
             view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 202).isActive = true
         }
         
-        stylesettingshead(_label: Settingslbl)
+        //stylesettingshead(_label: Settingslbl)
         
         
       
