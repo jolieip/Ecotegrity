@@ -709,7 +709,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="c3t-zU-kGt"/>
                             </scrollView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mp4-96-HkT" customClass="ButtonBarView" customModule="XLPagerTabStrip">
-                                <rect key="frame" x="0.0" y="168" width="414" height="64"/>
+                                <rect key="frame" x="0.0" y="168" width="422" height="64"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="iGz-rx-5hY"/>
@@ -723,13 +723,13 @@
                                 <cells/>
                             </collectionView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eQ9-WG-sDx">
-                                <rect key="frame" x="30" y="40" width="354" height="92"/>
+                                <rect key="frame" x="30" y="40" width="362" height="92"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_picture" translatesAutoresizingMaskIntoConstraints="NO" id="c9u-IE-Hn0">
-                                        <rect key="frame" x="0.0" y="0.0" width="84" height="92"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="92"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CPp-0v-Zc5">
-                                        <rect key="frame" x="84" y="0.0" width="270" height="92"/>
+                                        <rect key="frame" x="92" y="0.0" width="270" height="92"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First_name Last_name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pDV-v3-pjP">
                                                 <rect key="frame" x="0.0" y="0.0" width="270" height="24"/>
@@ -802,7 +802,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01w-wg-EdU">
-                                <rect key="frame" x="335" y="8" width="79" height="24"/>
+                                <rect key="frame" x="335" y="8" width="87" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="TyB-Gc-NPz"/>
                                     <constraint firstAttribute="height" constant="24" id="y7q-ov-TZE"/>
@@ -834,6 +834,7 @@
                         <viewLayoutGuide key="safeArea" id="5Vq-0f-BPx"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="profile icon-1" selectedImage="profile icon-1" id="LrA-iI-JdE"/>
+                    <navigationItem key="navigationItem" id="Tun-KQ-E6R"/>
                     <connections>
                         <outlet property="buttonBarView" destination="mp4-96-HkT" id="ZPG-BU-cSg"/>
                         <outlet property="containerView" destination="1SG-7F-JaH" id="49o-mI-oeO"/>
@@ -865,21 +866,91 @@
             <point key="canvasLocation" x="5166.666666666667" y="1109.5982142857142"/>
         </scene>
         <!--Child2 View Controller-->
+        <scene sceneID="i9R-iO-uC9">
+            <objects>
+                <viewController id="vjd-s5-IbM" customClass="Child2ViewController" customModule="Ecotegrity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YFd-JO-v8N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chatting- write the message" translatesAutoresizingMaskIntoConstraints="NO" id="iFG-Rj-Bg9">
+                                <rect key="frame" x="-131" y="103" width="690" height="840"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AnE-qd-58i">
+                                <rect key="frame" x="0.0" y="59" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="ydO-iF-h1i">
+                                        <barButtonItem key="leftBarButtonItem" image="back_button" id="TNB-OA-4JT">
+                                            <connections>
+                                                <segue destination="HfT-bo-77I" kind="show" id="JKa-jf-oim"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MY5-YM-DJZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RIt-7S-nwK"/>
+                    <connections>
+                        <outlet property="firstbackbutton" destination="TNB-OA-4JT" id="25f-Nx-Wbk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7l-oj-Nxz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5849.275362318841" y="387.72321428571428"/>
+        </scene>
+        <!--Child2 View Controller-->
         <scene sceneID="gfH-UE-uaw">
             <objects>
                 <viewController storyboardIdentifier="Chat" id="HfT-bo-77I" customClass="Child2ViewController" customModule="Ecotegrity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i8J-Hh-Itg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chatimg1" translatesAutoresizingMaskIntoConstraints="NO" id="KZS-FB-z8X">
-                                <rect key="frame" x="-46" y="194" width="507" height="500"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb5-Sa-lvS">
+                                <rect key="frame" x="-35" y="462" width="468" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="chatfriend2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wex-AW-Fbm">
+                                <rect key="frame" x="-35" y="583" width="485" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="chatfriend3"/>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B5N-A7-up6">
+                                <rect key="frame" x="0.0" y="74" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="0TK-hf-gUq">
+                                        <barButtonItem key="leftBarButtonItem" image="back_button" id="euI-jv-ggq">
+                                            <connections>
+                                                <action selector="secondbackbutton:" destination="HfT-bo-77I" id="KHp-tD-iEg"/>
+                                                <segue destination="6n8-Uw-1QZ" kind="show" id="Hpo-Zn-mwx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSi-7h-Ept">
+                                <rect key="frame" x="-27" y="345" width="468" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2020-08-14 at 4.08.58 PM"/>
+                                <connections>
+                                    <segue destination="vjd-s5-IbM" kind="show" id="Cc9-ju-eW6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="RJt-ab-yNz"/>
                     </view>
+                    <navigationItem key="navigationItem" id="EWD-f0-HT0"/>
+                    <connections>
+                        <outlet property="josephtan" destination="SSi-7h-Ept" id="gsK-rL-8SA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v77-Hj-Px4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1097,14 +1168,14 @@
             <objects>
                 <viewController id="5w1-Iw-VpM" customClass="PostingViewController" customModule="Ecotegrity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qsb-wH-IWh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="WVW-zW-Oqs">
-                                <rect key="frame" x="60" y="128" width="294" height="163"/>
+                                <rect key="frame" x="60" y="128" width="294" height="173"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx9-sZ-YKF">
-                                        <rect key="frame" x="0.0" y="0.0" width="294" height="163"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="173"/>
                                         <state key="normal" image="blog post"/>
                                         <connections>
                                             <segue destination="Xij-pY-N3e" kind="popoverPresentation" popoverAnchorView="Hx9-sZ-YKF" id="cgN-OO-HRD">
@@ -1115,7 +1186,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Article" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZP-YT-00h">
-                                <rect key="frame" x="186" y="55" width="57" height="24"/>
+                                <rect key="frame" x="186" y="99" width="57" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1698,7 +1769,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="JKa-jf-oim"/>
         <segue reference="YZ5-r2-twj"/>
+        <segue reference="Hpo-Zn-mwx"/>
         <segue reference="U17-Dj-dvR"/>
         <segue reference="dCd-tH-eQO"/>
         <segue reference="sb9-bZ-4iz"/>
@@ -1708,6 +1781,7 @@
         <image name="Group 178" width="115" height="157"/>
         <image name="Group 179" width="139" height="162"/>
         <image name="Group 180" width="124" height="183"/>
+        <image name="Screen Shot 2020-08-14 at 4.08.58 PM" width="1052" height="208"/>
         <image name="Vector (10)" width="25" height="25"/>
         <image name="Vector (11)" width="24" height="24"/>
         <image name="add photo" width="108" height="108"/>
@@ -1716,8 +1790,11 @@
         <image name="article 2" width="320" height="122"/>
         <image name="article 3" width="320" height="122"/>
         <image name="article 4" width="320" height="122"/>
+        <image name="back_button" width="12" height="20"/>
         <image name="blog post" width="124" height="124"/>
-        <image name="chatimg1" width="724" height="1084"/>
+        <image name="chatfriend2" width="656" height="132"/>
+        <image name="chatfriend3" width="662" height="130"/>
+        <image name="chatting- write the message" width="414" height="997"/>
         <image name="check plastic waste" width="138" height="153"/>
         <image name="create post-success add post" width="414" height="896"/>
         <image name="event 1" width="320" height="122"/>

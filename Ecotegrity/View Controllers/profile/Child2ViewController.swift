@@ -18,6 +18,10 @@ class Child2ViewController: UIViewController, IndicatorInfoProvider {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func secondbackbutton(_ sender: Any) {
+    }
+    @IBOutlet weak var firstbackbutton: UIBarButtonItem!
+    @IBOutlet weak var josephtan: UIButton!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
