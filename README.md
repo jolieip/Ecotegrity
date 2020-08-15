@@ -17,6 +17,9 @@ Ecotegrity is created for the young adult or college student who lives in influe
 Check out these videos of our prototype and all that we hope to implement and publish to the App Store in the near future. Don't forget to look through our code and see the progress we have made so far as well! Thank you! 
 
 https://youtu.be/ExHR3kqUCno
+
 https://youtu.be/aoor1-zPDK0
+
 https://youtu.be/iRfA1qPy-G8
+
 https://youtu.be/ZpjI5mMexJA
