@@ -12,7 +12,7 @@ http://www.dandilyonn.com/seeds.html
 
 We are incredibly grateful to the program, especially Archana and Pravin for introducing us to mobile development.
 
-Ecotegrity is created for the young adult or college student who lives in influencer culture and spends time connecting with others through social media. Our goal with the app is to utiilize social media specifialy for climate change issues to cultivate discussions that the world will participate in through influencer followings and wanting to spend time with friends for meaningful causes.
+Ecotegrity is created for the young adult or college student who lives in influencer culture and spends time connecting with others through social media. Our goal with the app is to utiilize social media specifically for climate change issues to cultivate discussions that the world will participate in through influencer followings and wanting to spend time with friends for meaningful causes.
 
 Check out these videos of our prototype and all that we hope to implement and publish to the App Store in the near future. Don't forget to look through our code and see the progress we have made so far as well! Thank you! 
 
