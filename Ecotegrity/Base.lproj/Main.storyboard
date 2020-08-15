@@ -263,26 +263,26 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OYO-yF-wo3">
-                                        <rect key="frame" x="0.0" y="33.5" width="332" height="50"/>
+                                        <rect key="frame" x="0.0" y="33.5" width="332" height="46"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search article, event, or discussion" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jwM-sQ-NTP">
-                                                <rect key="frame" x="0.0" y="0.0" width="282" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="282" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-search" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-5l-crL">
-                                                <rect key="frame" x="282" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="282" y="0.0" width="50" height="46"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Items" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neN-mF-Viz">
-                                        <rect key="frame" x="0.0" y="83.5" width="332" height="25.5"/>
+                                        <rect key="frame" x="0.0" y="79.5" width="332" height="25.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_page_popular" translatesAutoresizingMaskIntoConstraints="NO" id="2IN-52-avb">
-                                        <rect key="frame" x="0.0" y="109" width="332" height="244"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2020-08-14 at 8.44.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="2IN-52-avb">
+                                        <rect key="frame" x="0.0" y="105" width="332" height="248"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZQ-ka-Kj9">
                                         <rect key="frame" x="0.0" y="353" width="332" height="122"/>
@@ -890,6 +890,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whitespace" translatesAutoresizingMaskIntoConstraints="NO" id="9ok-Vw-zaL">
+                                <rect key="frame" x="62" y="148" width="38" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MY5-YM-DJZ"/>
@@ -1801,6 +1805,7 @@
         <image name="Group 179" width="139" height="162"/>
         <image name="Group 180" width="124" height="183"/>
         <image name="Screen Shot 2020-08-14 at 4.08.58 PM" width="1052" height="208"/>
+        <image name="Screen Shot 2020-08-14 at 8.44.07 PM" width="232" height="248"/>
         <image name="Vector (10)" width="25" height="25"/>
         <image name="Vector (11)" width="24" height="24"/>
         <image name="add photo" width="108" height="108"/>
@@ -1857,5 +1862,6 @@
         <image name="start discuss" width="402" height="102"/>
         <image name="tab_home" width="25" height="23"/>
         <image name="timelapse" catalog="system" width="128" height="122"/>
+        <image name="whitespace" width="232" height="198"/>
     </resources>
 </document>
