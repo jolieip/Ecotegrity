@@ -42,7 +42,7 @@ class displayeventsViewController: UIViewController {
     @IBOutlet weak var locationMenu: DropDown!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
      
         if locationMenu != nil {
             locationMenu.optionArray = ["Virtual", "In-Person"]

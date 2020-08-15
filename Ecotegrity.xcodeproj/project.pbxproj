@@ -25,6 +25,7 @@
 		43699C6F24E6650B009B47A7 /* displayeventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43699C6E24E6650B009B47A7 /* displayeventsViewController.swift */; };
 		43BFD81224CBF07500695C70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFD81124CBF07500695C70 /* SettingsViewController.swift */; };
 		B5DA68AEBD28811F1B0811F7 /* Pods_Ecotegrity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D9770C32CD61BC5A2314F /* Pods_Ecotegrity.framework */; };
+		D82574B924E76B9600D88146 /* Child4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82574B824E76B9600D88146 /* Child4ViewController.swift */; };
 		D8289CAA24C3C286003D913B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8289CA924C3C286003D913B /* Constants.swift */; };
 		F6B1C24424E4B016004974D7 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1C24324E4B016004974D7 /* ParentViewController.swift */; };
 		F6B1C24624E4B3AF004974D7 /* Child1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B1C24524E4B3AF004974D7 /* Child1ViewController.swift */; };
@@ -88,6 +89,7 @@
 		93DD9DF660E100AD60A3AD40 /* Pods-Ecotegrity-EcotegrityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity-EcotegrityUITests.release.xcconfig"; path = "Target Support Files/Pods-Ecotegrity-EcotegrityUITests/Pods-Ecotegrity-EcotegrityUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF1D9770C32CD61BC5A2314F /* Pods_Ecotegrity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecotegrity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC220EC8BD508B3AF9073307 /* Pods-Ecotegrity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecotegrity.release.xcconfig"; path = "Target Support Files/Pods-Ecotegrity/Pods-Ecotegrity.release.xcconfig"; sourceTree = "<group>"; };
+		D82574B824E76B9600D88146 /* Child4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child4ViewController.swift; sourceTree = "<group>"; };
 		D8289CA924C3C286003D913B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DD00EA68DCE82DCF0E88EF98 /* Pods_EcotegrityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcotegrityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B1C24324E4B016004974D7 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				F6B1C24524E4B3AF004974D7 /* Child1ViewController.swift */,
 				F6B1C24724E4B3BB004974D7 /* Child2ViewController.swift */,
 				F6B1C24924E4B3C5004974D7 /* Child3ViewController.swift */,
+				D82574B824E76B9600D88146 /* Child4ViewController.swift */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				4331212D24C0F67400155C6B /* LoginViewController.swift in Sources */,
 				F6B1C25724E60A71004974D7 /* EventsViewController.swift in Sources */,
 				433FCDFB24BE61DC00175D90 /* SceneDelegate.swift in Sources */,
+				D82574B924E76B9600D88146 /* Child4ViewController.swift in Sources */,
 				4331212F24C0F69000155C6B /* HomeViewController.swift in Sources */,
 				D8289CAA24C3C286003D913B /* Constants.swift in Sources */,
 				F6B1C24824E4B3BB004974D7 /* Child2ViewController.swift in Sources */,
